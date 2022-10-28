@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	htgotts "github.com/hegedustibor/htgo-tts"
 	"github.com/hegedustibor/htgo-tts/voices"
 )
@@ -12,5 +14,5 @@ func main() {
 	}
 
 	speech.Speak("Hello friends")
-
+	fmt.Println("Done!")
 }
