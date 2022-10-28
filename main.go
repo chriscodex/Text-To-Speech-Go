@@ -10,4 +10,7 @@ func main() {
 		Folder:   "audio",
 		Language: voices.English,
 	}
+
+	speech.Speak("Hello friends")
+
 }
